@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1738245315">
+  <File Type="ROUTE-PWR" Name="Horizon_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Horizon.tcl"/>
+  <File Type="BITSTR-MMI" Name="Horizon.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Horizon_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Horizon_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Horizon_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Horizon_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Horizon_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Horizon_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Horizon_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Horizon.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Horizon_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Horizon_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Horizon_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Horizon_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Horizon_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Horizon_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Horizon_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Horizon_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Horizon_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Horizon_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Horizon_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Horizon.bin"/>
+  <File Type="PLACE-TIMING" Name="Horizon_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Horizon_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Horizon.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Horizon_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Horizon_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Horizon_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Horizon.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Horizon_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Horizon_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Horizon_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Horizon_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Horizon_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Horizon_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Horizon_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Horizon_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Horizon_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Horizon_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Horizon_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Horizon_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Horizon_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Horizon_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Horizon_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Horizon_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Horizon_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Horizon_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Horizon_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Horizon_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Horizon_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Horizon_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Horizon_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Horizon_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Horizon_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Horizon_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Horizon_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Horizon.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Horizon_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Horizon_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Horizon.nky"/>
+  <File Type="BITSTR-BMM" Name="Horizon_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Horizon.pdi"/>
+  <File Type="RCFI_FILE" Name="Horizon.rcfi"/>
+  <File Type="CFI_FILE" Name="Horizon.cfi"/>
+  <File Type="RNPI_FILE" Name="Horizon.rnpi"/>
+  <File Type="NPI_FILE" Name="Horizon.npi"/>
+  <File Type="RBD_FILE" Name="Horizon.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Horizon.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Horizon.sysdef"/>
+  <File Type="BG-BGN" Name="Horizon.bgn"/>
+  <File Type="BG-DRC" Name="Horizon.drc"/>
+  <File Type="RDI-RDI" Name="Horizon.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Horizon_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Horizon_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../../4A/CODE vhdl accelerometre/ADXL362Ctrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CodeSource/Audio/AudioOut.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CodeSource/Affichage/CalRot.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CodeSource/Affichage/Display_Hor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CodeSource/Audio/PWMGenerator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../4A/CODE vhdl accelerometre/SPI_If.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Horizon.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Audio/AudioOut.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Audio/PWMGenerator.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="mig_7series_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Horizon"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../digilent-xdc-master/digilent-xdc-master/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Horizon.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

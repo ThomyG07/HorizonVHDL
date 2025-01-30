@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado Projects/Projet 4A/VGA/VGA.sim/sim_1/impl/timing/xsim/VGA_testBench_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Horizon
+INFO: [VRFC 10-311] analyzing module VGA
+INFO: [VRFC 10-311] analyzing module glbl
