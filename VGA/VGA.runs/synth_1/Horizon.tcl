@@ -87,12 +87,12 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  {D:/4A/CODE vhdl accelerometre/ADXL362Ctrl.vhd}
+  {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/ADXL362Ctrl.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Audio/AudioOut.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/CalRot.vhd}
-  {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/Display_Hor.vhd}
+  {D:/vivado Projects/Projet 4A/Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Audio/PWMGenerator.vhd}
-  {D:/4A/CODE vhdl accelerometre/SPI_If.vhd}
+  {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/SPI_If.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/VGA.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd}
 }
