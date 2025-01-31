@@ -105,10 +105,10 @@ begin
             
             if(signRoll = '1')
                 then
-                    pente <= -1*(sinArray(rollint)*1000)/cosArray(rollint);  
+                    pente <= (sinArray(rollint)*1000)/cosArray(rollint);  
                     
                 else
-                   pente <= (sinArray(rollint)*1000)/cosArray(rollint);        
+                   pente <= -1*(sinArray(rollint)*1000)/cosArray(rollint);        
             end if;
             
               if(signPitch = '1')

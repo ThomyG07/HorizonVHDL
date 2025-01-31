@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Jan 31 08:43:39 2025
+| Date         : Fri Jan 31 09:21:54 2025
 | Host         : LAPTOP-92BOST6C running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Horizon_control_sets_placed.rpt
 | Design       : Horizon
@@ -58,10 +58,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             411 |          147 |
+| No           | No                    | No                     |             411 |          145 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |             112 |           35 |
-| Yes          | No                    | No                     |              82 |           22 |
+| No           | Yes                   | No                     |             112 |           34 |
+| Yes          | No                    | No                     |              82 |           28 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |              98 |           25 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -73,36 +73,36 @@ Table of Contents
 +---------------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
 |        Clock Signal       |                     Enable Signal                    |             Set/Reset Signal            | Slice Load Count | Bel Load Count | Bels / Slice |
 +---------------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
-|  Audio/composantAudio/CLK |                                                      |                                         |                1 |              1 |         1.00 |
 |  dll1/inst/clk_out1       |                                                      | VGA1/VGA_HS_s0                          |                1 |              1 |         1.00 |
-|  slowClk                  |                                                      |                                         |                2 |              2 |         1.00 |
-|  dll1/inst/clk_out1       | ADXL_Control/CE_Cnt_Num_Reads                        | ADXL_Control/Reset_Cnt_Num_Reads        |                1 |              4 |         4.00 |
+|  Audio/composantAudio/CLK |                                                      |                                         |                1 |              1 |         1.00 |
+|  slowClk                  |                                                      |                                         |                1 |              2 |         2.00 |
 |  dll1/inst/clk_out1       | ADXL_Control/Cmd_Reg[0]_1                            | ADXL_Control/Cmd_Reg[0][6]_i_1_n_0      |                1 |              4 |         4.00 |
+|  dll1/inst/clk_out1       | ADXL_Control/CE_Cnt_Num_Reads                        | ADXL_Control/Reset_Cnt_Num_Reads        |                1 |              4 |         4.00 |
 |  dll1/inst/clk_out1       | ADXL_Control/FSM_sequential_StC_Adxl_Ctrl[3]_i_1_n_0 | RESET_INT_reg_n_0                       |                1 |              4 |         4.00 |
 |  dll1/inst/clk_out1       | ADXL_Control/Cmd_Reg[1][6]_i_2_n_0                   | ADXL_Control/Cmd_Reg[1]0_in[7]          |                1 |              5 |         5.00 |
-|  dll1/inst/clk_out1       |                                                      | RESET_INT_reg_n_0                       |                2 |              6 |         3.00 |
 |  dll1/inst/clk_out1       |                                                      | ADXL_Control/SPI_Interface/SCLK_2X_DIV0 |                2 |              6 |         3.00 |
+|  dll1/inst/clk_out1       |                                                      | RESET_INT_reg_n_0                       |                2 |              6 |         3.00 |
 |  dll1/inst/clk_out1       | ADXL_Control/Cmd_Reg[2]_0                            | ADXL_Control/Cmd_Reg[2][7]              |                1 |              6 |         6.00 |
-|  dll1/inst/clk_out1       | ADXL_Control/D_Send[6]_i_1_n_0                       | RESET_INT_reg_n_0                       |                3 |              7 |         2.33 |
+|  dll1/inst/clk_out1       | ADXL_Control/D_Send[6]_i_1_n_0                       | RESET_INT_reg_n_0                       |                2 |              7 |         3.50 |
 |  slowClk                  |                                                      | Audio/composantAudio/cnt                |                3 |              8 |         2.67 |
+|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/EN_LOAD_DOUT              |                                         |                4 |              8 |         2.00 |
+|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/MOSI_REG[7]_i_1_n_0       |                                         |                2 |              8 |         4.00 |
+|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/SHIFT_TICK_IN             |                                         |                5 |              8 |         1.60 |
 |  Audio/composantAudio/CLK |                                                      | Audio/composantBip/cnt                  |                3 |              8 |         2.67 |
-|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/SHIFT_TICK_IN             |                                         |                1 |              8 |         8.00 |
-|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/EN_LOAD_DOUT              |                                         |                1 |              8 |         8.00 |
-|  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/MOSI_REG[7]_i_1_n_0       |                                         |                1 |              8 |         8.00 |
+|  dll1/inst/clk_out1       |                                                      | ADXL_Control/Cnt_SS_Inactive0           |                3 |             11 |         3.67 |
 |  dll1/inst/clk_out1       |                                                      | cnt_acc_reset[9]_i_1_n_0                |                3 |             11 |         3.67 |
-|  dll1/inst/clk_out1       |                                                      | ADXL_Control/Cnt_SS_Inactive0           |                4 |             11 |         2.75 |
 |  dll1/inst/clk_out1       |                                                      | VGA1/h_count[0]_i_1_n_0                 |                3 |             12 |         4.00 |
 |  dll1/inst/clk_out1       | VGA1/h_count[0]_i_1_n_0                              | VGA1/v_count0                           |                3 |             12 |         4.00 |
+|  dll1/inst/clk_out1       | VGA1/leqOp                                           |                                         |                3 |             12 |         4.00 |
 |  dll1/inst/clk_out1       | VGA1/leqOp_inferred__0/i__carry__0_n_2               |                                         |                6 |             12 |         2.00 |
-|  dll1/inst/clk_out1       | VGA1/leqOp                                           |                                         |                5 |             12 |         2.40 |
 |  VGA1/CLK                 |                                                      |                                         |                6 |             14 |         2.33 |
 |  dll1/inst/clk_out1       |                                                      | ADXL_Control/Sample_Rate_Div[0]_i_1_n_0 |                5 |             17 |         3.40 |
-|  dll1/inst/clk_out1       | ADXL_Control/StC_Adxl_Ctrl[3]                        | RESET_INT_reg_n_0                       |                6 |             24 |         4.00 |
-|  CLK100MHZ_IBUF_BUFG      |                                                      | slowClk                                 |                9 |             32 |         3.56 |
+|  dll1/inst/clk_out1       | ADXL_Control/StC_Adxl_Ctrl[3]                        | RESET_INT_reg_n_0                       |                7 |             24 |         3.43 |
 |  dll1/inst/clk_out1       | ADXL_Control/CE_Cnt_Num_Reads                        | ADXL_Control/ACCEL_X_SUM0               |                8 |             32 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG      |                                                      | slowClk                                 |                9 |             32 |         3.56 |
 |  dll1/inst/clk_out1       | ADXL_Control/SPI_Interface/Shift_Data_Reg            |                                         |                8 |             42 |         5.25 |
-|  dll1/inst/clk_out1       |                                                      |                                         |               46 |             98 |         2.13 |
-|  CLK100MHZ_IBUF_BUFG      |                                                      |                                         |               92 |            296 |         3.22 |
+|  dll1/inst/clk_out1       |                                                      |                                         |               44 |             98 |         2.23 |
+|  CLK100MHZ_IBUF_BUFG      |                                                      |                                         |               93 |            296 |         3.18 |
 +---------------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
 
 

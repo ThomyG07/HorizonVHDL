@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri Jan 31 08:41:04 2025
-# Process ID: 24924
+# Start of session at: Fri Jan 31 09:19:35 2025
+# Process ID: 26604
 # Current directory: D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1
 # Command line: vivado.exe -log Horizon.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Horizon.tcl
 # Log file: D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/Horizon.vds
@@ -11,7 +11,7 @@
 # Running On: LAPTOP-92BOST6C, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 16945 MB
 #-----------------------------------------------------------
 source Horizon.tcl -notrace
-create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 393.785 ; gain = 67.410
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 394.738 ; gain = 75.137
 Command: read_checkpoint -auto_incremental -incremental {D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/utils_1/imports/synth_1/Horizon.dcp}
 INFO: [Vivado 12-5825] Read reference checkpoint from D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/utils_1/imports/synth_1/Horizon.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -24,10 +24,10 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 27508
+INFO: [Synth 8-7075] Helper process launched with PID 9824
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1233.355 ; gain = 410.684
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1232.938 ; gain = 408.219
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Horizon' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:53]
 INFO: [Synth 8-3491] module 'AudioOut' declared at 'D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Audio/AudioOut.vhd:34' bound to instance 'Audio' of component 'AudioOut' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:189]
@@ -48,14 +48,14 @@ WARNING: [Synth 8-614] signal 'video_on' is read in the process but is not in th
 WARNING: [Synth 8-614] signal 'VGA_HS_s' is read in the process but is not in the sensitivity list [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/VGA.vhd:68]
 WARNING: [Synth 8-614] signal 'VGA_VS_s' is read in the process but is not in the sensitivity list [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/VGA.vhd:68]
 INFO: [Synth 8-256] done synthesizing module 'VGA' (0#1) [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/VGA.vhd:52]
-INFO: [Synth 8-3491] module 'Display_Hor' declared at 'D:/vivado Projects/Projet 4A/Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd:29' bound to instance 'D1' of component 'Display_Hor' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:221]
-INFO: [Synth 8-638] synthesizing module 'Display_Hor' [D:/vivado Projects/Projet 4A/Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd:55]
+INFO: [Synth 8-3491] module 'Display_Hor' declared at 'D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/Display_Hor.vhd:29' bound to instance 'D1' of component 'Display_Hor' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'Display_Hor' [D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/Display_Hor.vhd:55]
 	Parameter WIDTH bound to: 1920 - type: integer 
 	Parameter HEIGHT bound to: 1080 - type: integer 
 	Parameter Dp bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'Display_Hor' (0#1) [D:/vivado Projects/Projet 4A/Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd:55]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/.Xil/Vivado-24924-LAPTOP-92BOST6C/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'dll1' of component 'clk_wiz_0' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:234]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/.Xil/Vivado-24924-LAPTOP-92BOST6C/realtime/clk_wiz_0_stub.vhdl:15]
+INFO: [Synth 8-256] done synthesizing module 'Display_Hor' (0#1) [D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/Display_Hor.vhd:55]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/.Xil/Vivado-26604-LAPTOP-92BOST6C/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'dll1' of component 'clk_wiz_0' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/.Xil/Vivado-26604-LAPTOP-92BOST6C/realtime/clk_wiz_0_stub.vhdl:15]
 INFO: [Synth 8-3491] module 'ADXL362Ctrl' declared at 'D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/ADXL362Ctrl.vhd:89' bound to instance 'ADXL_Control' of component 'ADXL362Ctrl' [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:254]
 INFO: [Synth 8-638] synthesizing module 'ADXL362Ctrl' [D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/ADXL362Ctrl.vhd:117]
 	Parameter SYSCLK_FREQUENCY_HZ bound to: 108000000 - type: integer 
@@ -68,18 +68,18 @@ INFO: [Synth 8-256] done synthesizing module 'SPI_If' (0#1) [D:/vivado Projects/
 INFO: [Synth 8-256] done synthesizing module 'ADXL362Ctrl' (0#1) [D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/ADXL362Ctrl.vhd:117]
 INFO: [Synth 8-256] done synthesizing module 'Horizon' (0#1) [D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/Horizon.vhd:53]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.766 ; gain = 509.094
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.047 ; gain = 506.328
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.766 ; gain = 509.094
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.047 ; gain = 506.328
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.766 ; gain = 509.094
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1331.047 ; gain = 506.328
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1331.766 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1331.047 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -92,23 +92,23 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/Horizon_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1434.902 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1368.254 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1434.902 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1368.254 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1368.254 ; gain = 543.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1368.254 ; gain = 543.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -117,7 +117,7 @@ Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {d:/
 Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {d:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
 Applied set_property KEEP_HIERARCHY = SOFT for dll1. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1368.254 ; gain = 543.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'StC_reg' in module 'SPI_If'
 INFO: [Synth 8-802] inferred FSM for state register 'StC_Spi_SendRec_reg' in module 'ADXL362Ctrl'
@@ -169,7 +169,7 @@ stadxlwaitsampleratetick |                             0100 |                   
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'StC_Adxl_Ctrl_reg' using encoding 'sequential' in module 'ADXL362Ctrl'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1368.254 ; gain = 543.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -266,7 +266,7 @@ DSP Report: operator resulM20 is absorbed into DSP resulM20.
 WARNING: [Synth 8-7129] Port Roll[7] in module Display_Hor is either unconnected or has no load
 WARNING: [Synth 8-7129] Port Pitch[7] in module Display_Hor is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:31 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:31 . Memory (MB): peak = 1368.254 ; gain = 543.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -290,19 +290,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:40 . Memory (MB): peak = 1434.902 ; gain = 612.230
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 1376.676 ; gain = 551.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:48 . Memory (MB): peak = 1469.738 ; gain = 647.066
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:51 . Memory (MB): peak = 1468.738 ; gain = 644.020
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:50 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:52 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -320,37 +320,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -410,27 +410,27 @@ Report Cell Usage:
 |16    |OBUF           |    19|
 +------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:53 . Memory (MB): peak = 1476.434 ; gain = 550.625
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:55 . Memory (MB): peak = 1476.434 ; gain = 653.762
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:56 . Memory (MB): peak = 1475.480 ; gain = 613.555
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:58 . Memory (MB): peak = 1475.480 ; gain = 650.762
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1487.203 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1485.113 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 613 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1490.871 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1488.770 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 50b4b829
+Synth Design complete, checksum: e9fe94f8
 INFO: [Common 17-83] Releasing license: Synthesis
 58 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:01:10 . Memory (MB): peak = 1490.871 ; gain = 1064.254
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:01:05 . Memory (MB): peak = 1488.770 ; gain = 1060.215
 INFO: [Common 17-1381] The checkpoint 'D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.runs/synth_1/Horizon.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Horizon_utilization_synth.rpt -pb Horizon_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jan 31 08:42:31 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 31 09:20:50 2025...

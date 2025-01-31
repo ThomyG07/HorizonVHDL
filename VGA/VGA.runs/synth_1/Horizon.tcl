@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 2
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -90,7 +92,7 @@ read_vhdl -library xil_defaultlib {
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/ADXL362Ctrl.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Audio/AudioOut.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/CalRot.vhd}
-  {D:/vivado Projects/Projet 4A/Display_Hor/Display_Hor.srcs/sources_1/new/Display_Hor.vhd}
+  {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Affichage/Display_Hor.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/Audio/PWMGenerator.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/CodeSource/ADXL362/SPI_If.vhd}
   {D:/vivado Projects/Projet 4A/HorizonVHDL/VGA/VGA.srcs/sources_1/new/VGA.vhd}

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Jan 31 08:44:37 2025
+| Date         : Fri Jan 31 09:22:52 2025
 | Host         : LAPTOP-92BOST6C running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Horizon_methodology_drc_routed.rpt -pb Horizon_methodology_drc_routed.pb -rpx Horizon_methodology_drc_routed.rpx
 | Design       : Horizon
@@ -1889,52 +1889,52 @@ Related violations: <none>
 
 TIMING-16#1 Warning
 Large setup violation  
-There is a large setup violation of -3.919 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.083 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#2 Warning
 Large setup violation  
-There is a large setup violation of -3.951 ns between cal1/pitch_add_reg[3]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.140 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#3 Warning
 Large setup violation  
-There is a large setup violation of -4.415 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.575 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#4 Warning
 Large setup violation  
-There is a large setup violation of -4.527 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.828 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[6]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#5 Warning
 Large setup violation  
-There is a large setup violation of -4.686 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[4]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.856 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#6 Warning
 Large setup violation  
-There is a large setup violation of -4.691 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[6]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.873 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[5]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#7 Warning
 Large setup violation  
-There is a large setup violation of -4.779 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[5]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.976 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[4]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#8 Warning
 Large setup violation  
-There is a large setup violation of -4.873 ns between cal1/pitch_add_reg[3]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[7]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.093 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[8]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#9 Warning
 Large setup violation  
-There is a large setup violation of -4.887 ns between cal1/pitch_add_reg[3]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[8]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.184 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[12]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#10 Warning
 Large setup violation  
-There is a large setup violation of -4.906 ns between cal1/pitch_add_reg[3]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[12]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.275 ns between cal1/pitch_add_reg[0]/C (clocked by clk_out1_clk_wiz_0) and cal1/pitch_s_reg[7]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 
