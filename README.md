@@ -3,6 +3,10 @@
 HorizonVHDL est un projet de 2ᵉ année de cycle ingénieur à Polytech Dijon.  
 L'objectif est, à partir de la carte **Nexys 4 DDR**, de recréer un horizon artificiel.  
 
+## Requis  
+
+- **Vivado 2022.2** (conseillé pour exécuter le projet)  
+
 ## Structure du projet  
 
 - **[Code Source](https://github.com/ThomyG07/HorizonVHDL/tree/main/CodeSource)** : regroupe les modules liés à l'affichage, la gestion de l'accélérateur et de la sortie audio.  
